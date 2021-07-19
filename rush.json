@@ -3,7 +3,11 @@
   "rushVersion": "5.50.0",
   "pnpmVersion": "6.10.3",
   "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
-  "repository": {},
+  "repository": {
+    "defaultBranch": "master",
+    "defaultRemote": "origin",
+    "url": "https://github.com/shabashab/xlsx-model"
+  },
   "projects": [
     {
       "packageName": "@xlsx-model/indexed-colors",
