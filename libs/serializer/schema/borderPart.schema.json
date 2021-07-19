@@ -1,0 +1,12 @@
+{
+  "$id": "/BorderPart",
+  "type": "object",
+  "properties": {
+    "color": {
+      "type": "string"
+    },
+    "width": {
+      "type": "number"
+    }
+  }
+}

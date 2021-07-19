@@ -1,0 +1,16 @@
+{
+  "$id": "/RowMarkup",
+  "type": "object",
+  "properties": {
+    "height": {
+      "type": "number"
+    },
+    "level": {
+      "type": "number"
+    },
+    "collapsed": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

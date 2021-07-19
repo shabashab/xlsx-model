@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.50.0",
+  "pnpmVersion": "6.10.3",
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
+  "repository": {},
+  "projects": [
+    {
+      "packageName": "@xlsx-model/indexed-colors",
+      "projectFolder": "libs/indexed-colors",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@xlsx-model/models",
+      "projectFolder": "libs/models",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@xlsx-model/serializer",
+      "projectFolder": "libs/serializer",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@xlsx-model/xlsx-parser",
+      "projectFolder": "libs/xlsx-parser",
+      "shouldPublish": true
+    }
+  ]
+}

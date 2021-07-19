@@ -1,0 +1,16 @@
+{
+  "$id": "/RowModel",
+  "type": "object",
+  "properties": {
+    "cells": {
+      "type": "object",
+      "patternProperties": {
+        "\\d+": {
+          "$ref": "/CellModel"
+        }
+      }
+    }
+  },
+  "required": ["cells"],
+  "additionalProperties": false
+}

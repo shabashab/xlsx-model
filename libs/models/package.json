@@ -1,0 +1,25 @@
+{
+  "name": "@xlsx-model/models",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "shabashab",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/shabashab/xlsx-model-models"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "rushx build"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "typescript-collections": "^1.3.3"
+  }
+}

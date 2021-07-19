@@ -1,0 +1,18 @@
+{
+  "$id": "/CellModel",
+  "type": "object",
+  "properties": {
+    "value": {
+      "type": "string"
+    },
+    "rowSpan": {
+      "type": "number"
+    },
+    "columnSpan": {
+      "type": "number"
+    },
+    "style": {
+      "$ref": "/CellStyle"
+    }
+  }
+}

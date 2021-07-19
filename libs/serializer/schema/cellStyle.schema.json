@@ -1,0 +1,19 @@
+{
+  "$id": "/CellStyle",
+  "type": "object",
+  "properties": {
+    "fillColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "number"
+    },
+    "border": {
+      "$ref": "/Border"
+    }
+  },
+  "additionalProperties": false
+}

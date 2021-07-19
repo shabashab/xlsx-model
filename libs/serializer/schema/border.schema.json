@@ -1,0 +1,18 @@
+{
+  "$id": "/Border",
+  "type": "object",
+  "properties": {
+    "right": {
+      "$ref": "/BorderPart"
+    },
+    "left": {
+      "$ref": "/BorderPart"
+    },
+    "top": {
+      "$ref": "/BorderPart"
+    },
+    "bottom": {
+      "$ref": "/BorderPart"
+    }
+  }
+}
