@@ -1,9 +1,5 @@
-import WorksheetModel from "./WorksheetModel";
+import { WorksheetModel } from "./WorksheetModel";
 
-export default class WorkbookModel {
-  public worksheets: WorksheetModel[];
-
-  constructor(worksheets?: WorksheetModel[]) {
-    this.worksheets = worksheets || [];
-  }
+export interface WorkbookModel {
+  worksheets: WorksheetModel[];
 }
