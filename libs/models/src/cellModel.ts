@@ -1,4 +1,4 @@
-import { CellStyle } from "./CellStyle";
+import { CellStyle } from "./cellStyle";
 
 export interface CellModel {
   value: string;

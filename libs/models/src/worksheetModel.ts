@@ -1,5 +1,5 @@
-import { RowModel } from "./RowModel";
-import { TableMarkup } from "./Markup/TableMarkup";
+import { RowModel } from "./rowModel";
+import { TableMarkup } from "./markup/tableMarkup";
 import { Dictionary } from "typescript-collections";
 
 export interface WorksheetModel {

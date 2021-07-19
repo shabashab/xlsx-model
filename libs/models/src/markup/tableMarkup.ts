@@ -1,5 +1,5 @@
-import { RowMarkup } from "./RowMarkup";
-import { ColumnMarkup } from "./ColumnMarkup";
+import { RowMarkup } from "./rowMarkup";
+import { ColumnMarkup } from "./columnMarkup";
 
 import { Dictionary } from "typescript-collections";
 
