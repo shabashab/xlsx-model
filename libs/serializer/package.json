@@ -19,6 +19,6 @@
   },
   "scripts": {
     "prepublishOnly": "rushx build",
-    "build": "tsc --project tsconfig.release.json"
+    "build": "rm -rf dist/ && tsc --project tsconfig.release.json"
   }
 }
