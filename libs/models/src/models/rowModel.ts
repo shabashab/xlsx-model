@@ -1,6 +1,6 @@
 import { CellModel } from "./cellModel";
-import { Dictionary } from "typescript-collections";
+import { NumberDictionary } from "../helpers/numberDictionary";
 
 export interface RowModel {
-  cells: Dictionary<number, CellModel>;
+  cells: NumberDictionary<CellModel>;
 }

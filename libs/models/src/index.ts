@@ -6,3 +6,4 @@ export * from "./models/cellStyle";
 export * from "./models/markup/columnMarkup";
 export * from "./models/markup/rowMarkup";
 export * from "./models/markup/tableMarkup";
+export * from "./helpers/numberDictionary";

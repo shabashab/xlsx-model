@@ -1,11 +1,10 @@
 import { RowMarkup } from "./rowMarkup";
 import { ColumnMarkup } from "./columnMarkup";
-
-import { Dictionary } from "typescript-collections";
+import { NumberDictionary } from "../../helpers/numberDictionary";
 
 export interface TableMarkup {
-  rows: Dictionary<number, RowMarkup>;
-  columns: Dictionary<number, ColumnMarkup>;
+  rows: NumberDictionary<RowMarkup>;
+  columns: NumberDictionary<ColumnMarkup>;
   rowsCount: number;
   columnsCount: number;
 }

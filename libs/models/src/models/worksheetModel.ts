@@ -1,9 +1,9 @@
 import { RowModel } from "./rowModel";
 import { TableMarkup } from "./markup/tableMarkup";
-import { Dictionary } from "typescript-collections";
+import { NumberDictionary } from "../helpers/numberDictionary";
 
 export interface WorksheetModel {
-  rows: Dictionary<number, RowModel>;
+  rows: NumberDictionary<RowModel>;
   tableMarkup: TableMarkup;
   name: string;
 }
