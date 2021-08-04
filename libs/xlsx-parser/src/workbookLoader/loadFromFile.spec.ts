@@ -1,5 +1,6 @@
 import { loadFromFile } from "./loadFromFile";
 import { Workbook } from "@xlsx-model/excel";
+import * as faker from "faker";
 
 jest.mock("@xlsx-model/excel");
 
@@ -31,11 +32,11 @@ describe("loadFromFile", () => {
   });
 
   it("should call readFile method of created workbook", async () => {
-    const fileName = "file.json";
-    await loadFromFile(fileName);
+    const filePath = faker.system.filePath();
+    await loadFromFile(filePath);
 
     expect(createdWorkbook).toBeDefined();
-    expect(createdWorkbook.xlsx.readFile).toBeCalledWith(fileName);
+    expect(createdWorkbook.xlsx.readFile).toBeCalledWith(filePath);
     expect((<any>createdWorkbook).__mockChanged).toBeTruthy();
   });
 });

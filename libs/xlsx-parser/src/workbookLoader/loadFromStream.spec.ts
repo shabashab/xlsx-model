@@ -2,6 +2,7 @@ import { loadFromFile } from "./loadFromFile";
 import { Workbook } from "@xlsx-model/excel";
 import { Readable } from "stream";
 import { loadFromStream } from "./loadFromStream";
+import * as faker from "faker";
 
 jest.mock("@xlsx-model/excel");
 
@@ -33,7 +34,7 @@ describe("loadFromStream", () => {
   });
 
   it("should call read method of created workbook", async () => {
-    const streamContent = "file.json";
+    const streamContent = faker.datatype.string();
 
     const stream = Readable.from([streamContent]);
     await loadFromStream(stream);
