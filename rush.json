@@ -20,11 +20,6 @@
       "shouldPublish": true
     },
     {
-      "packageName": "@xlsx-model/serializer",
-      "projectFolder": "libs/serializer",
-      "shouldPublish": true
-    },
-    {
       "packageName": "@xlsx-model/xlsx-parser",
       "projectFolder": "libs/xlsx-parser",
       "shouldPublish": true
