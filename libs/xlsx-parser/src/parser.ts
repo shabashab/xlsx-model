@@ -1,7 +1,7 @@
 import { Stream } from "stream";
 import { WorkbookModel } from "@xlsx-model/models";
 import { Workbook } from "@xlsx-model/excel";
-import { loadFromFile, loadFromStream } from "./loadWorkbook";
+import { loadFromFile, loadFromStream } from "./workbookLoader";
 import WorkbookParserFactory from "./Parsers/WorkbookParserFactory";
 
 function parseWorkbook(workbook: Workbook) {
