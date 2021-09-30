@@ -629,7 +629,7 @@ packages:
     dev: false
 
   file:projects/xlsx-parser.tgz:
-    resolution: {integrity: sha512-R/tn/r1zAXI+c25Dg43Rw5IaCaSkfgxr060x7oHJwoQHKDvqEZ9YQzpemFK61b8LcLO4+4BuI4oiJJzu/CZ9JQ==, tarball: file:projects/xlsx-parser.tgz}
+    resolution: {integrity: sha512-gmRZ8ilpoGRFncfghAPuCiHj4B1PkIbS9ROOSKxzgSmaGOPHqNzLKt4f/HGyzGUCISephI56aIzZCGTIXZJFLQ==, tarball: file:projects/xlsx-parser.tgz}
     name: '@rush-temp/xlsx-parser'
     version: 0.0.0
     dependencies:
@@ -639,6 +639,7 @@ packages:
       '@xlsx-model/models': 1.1.0
       app-root-path: 3.0.0
       prettier: 2.3.2
+      rimraf: 3.0.2
       typescript: 4.3.5
       typescript-collections: 1.3.3
     dev: false
