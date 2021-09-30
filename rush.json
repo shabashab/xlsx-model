@@ -28,10 +28,6 @@
       "packageName": "@xlsx-model/xlsx-parser",
       "projectFolder": "libs/xlsx-parser",
       "shouldPublish": true
-    },
-    {
-      "packageName": "@xlsx-model/file-parser",
-      "projectFolder": "apps/file-parser"
     }
   ]
 }
