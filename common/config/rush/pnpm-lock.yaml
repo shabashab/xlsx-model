@@ -1,12 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@rush-temp/file-parser': file:./projects/file-parser.tgz
   '@rush-temp/indexed-colors': file:./projects/indexed-colors.tgz
   '@rush-temp/models': file:./projects/models.tgz
   '@rush-temp/serializer': file:./projects/serializer.tgz
   '@rush-temp/xlsx-parser': file:./projects/xlsx-parser.tgz
   '@types/app-root-path': ^1.2.4
-  '@types/node': ^14.14.37
   '@xlsx-model/excel': ^4.3.2
   '@xlsx-model/models': ^1.1.0
   app-root-path: ^3.0.0
@@ -15,12 +15,12 @@ specifiers:
   typescript-collections: ^1.3.3
 
 dependencies:
+  '@rush-temp/file-parser': file:projects/file-parser.tgz
   '@rush-temp/indexed-colors': file:projects/indexed-colors.tgz
   '@rush-temp/models': file:projects/models.tgz
   '@rush-temp/serializer': file:projects/serializer.tgz
   '@rush-temp/xlsx-parser': file:projects/xlsx-parser.tgz
   '@types/app-root-path': 1.2.4
-  '@types/node': 14.17.5
   '@xlsx-model/excel': 4.3.2
   '@xlsx-model/models': 1.1.0
   app-root-path: 3.0.0
@@ -593,6 +593,12 @@ packages:
       archiver-utils: 2.1.0
       compress-commons: 4.1.1
       readable-stream: 3.6.0
+    dev: false
+
+  file:projects/file-parser.tgz:
+    resolution: {integrity: sha512-InG3J3JPFmU5n0lublMZPZ92rUAY1KBpu/u+5bdrxj6fJVIrh0FS3moe14aqfWFQpKMwpXTjWsuIU2viajLv5w==, tarball: file:projects/file-parser.tgz}
+    name: '@rush-temp/file-parser'
+    version: 0.0.0
     dev: false
 
   file:projects/indexed-colors.tgz:
