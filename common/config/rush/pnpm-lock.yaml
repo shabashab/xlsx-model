@@ -11,6 +11,7 @@ specifiers:
   app-root-path: ^3.0.0
   jsonschema: ^1.4.0
   prettier: ^2.2.1
+  rimraf: ~3.0.2
   typescript-collections: ^1.3.3
 
 dependencies:
@@ -24,6 +25,7 @@ dependencies:
   app-root-path: 3.0.0
   jsonschema: 1.4.0
   prettier: 2.3.2
+  rimraf: 3.0.2
   typescript-collections: 1.3.3
 
 packages:
@@ -604,11 +606,12 @@ packages:
     dev: false
 
   file:projects/models.tgz:
-    resolution: {integrity: sha512-1k54ewp5d6rvfuACu26Xjp/qipijX1e1sx7mAXiFV4IYC5nOhCPnb21n5K5q9DYYm71/6LBaXbbBqrM0l6tMiw==, tarball: file:projects/models.tgz}
+    resolution: {integrity: sha512-SYvC8A8iT59kFiu2xITiEMPx+KvGEeM4OUhoOStNzysaPEFIlATW927QRzXI6va7DSaCnt5VvykSP1B8qK+hEA==, tarball: file:projects/models.tgz}
     name: '@rush-temp/models'
     version: 0.0.0
     dependencies:
       prettier: 2.3.2
+      rimraf: 3.0.2
       typescript: 4.3.5
       typescript-collections: 1.3.3
     dev: false
