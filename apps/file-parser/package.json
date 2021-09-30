@@ -11,6 +11,10 @@
   "devDependencies": {
     "typescript": "~4.4.3",
     "prettier": "~2.4.1",
-    "rimraf": "~3.0.2"
+    "rimraf": "~3.0.2",
+    "@xlsx-model/serializer": "~0.4.0"
+  },
+  "dependencies": {
+    "@xlsx-model/xlsx-parser": "~0.4.6"
   }
 }
