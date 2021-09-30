@@ -1,0 +1,16 @@
+{
+  "name": "@xlsx-model/file-parser",
+  "version": "0.0.1",
+  "description": "A project to test xlsx-parser library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist/ && tsc"
+  },
+  "author": "shabashab",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~4.4.3",
+    "prettier": "~2.4.1",
+    "rimraf": "~3.0.2"
+  }
+}
