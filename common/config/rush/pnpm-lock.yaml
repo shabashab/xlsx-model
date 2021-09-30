@@ -7,7 +7,7 @@ specifiers:
   '@rush-temp/serializer': file:./projects/serializer.tgz
   '@rush-temp/xlsx-parser': file:./projects/xlsx-parser.tgz
   '@types/app-root-path': ^1.2.4
-  '@xlsx-model/excel': ^4.3.2
+  '@xlsx-model/excel': ^4.3.3
   '@xlsx-model/models': ^1.1.0
   app-root-path: ^3.0.0
   jsonschema: ^1.4.0
@@ -21,7 +21,7 @@ dependencies:
   '@rush-temp/serializer': file:projects/serializer.tgz
   '@rush-temp/xlsx-parser': file:projects/xlsx-parser.tgz
   '@types/app-root-path': 1.2.4
-  '@xlsx-model/excel': 4.3.2
+  '@xlsx-model/excel': 4.3.3
   '@xlsx-model/models': 1.1.0
   app-root-path: 3.0.0
   jsonschema: 1.4.0
@@ -65,8 +65,8 @@ packages:
     resolution: {integrity: sha512-8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==}
     dev: false
 
-  /@xlsx-model/excel/4.3.2:
-    resolution: {integrity: sha512-CTkZKuUaxgYWAkmpEasjZeoQUumVYPviHFgW5z6iEn9UquB2A5U2LjnvONEBC0f3Y9inh82S+0km/w+FIVRqEA==}
+  /@xlsx-model/excel/4.3.3:
+    resolution: {integrity: sha512-P9O/fx0usB5JHSYAbIfj1tH34MjTE5IcCK6rlTRBLruVwzTy/WAJJgMWUf0vSZafF5FNJ+t19SGi+Y4Bipu4mw==}
     engines: {node: '>=8.3.0'}
     dependencies:
       archiver: 5.3.0
@@ -596,7 +596,7 @@ packages:
     dev: false
 
   file:projects/file-parser.tgz:
-    resolution: {integrity: sha512-InG3J3JPFmU5n0lublMZPZ92rUAY1KBpu/u+5bdrxj6fJVIrh0FS3moe14aqfWFQpKMwpXTjWsuIU2viajLv5w==, tarball: file:projects/file-parser.tgz}
+    resolution: {integrity: sha512-ubCpVNrR2eXvXuW9bqz1M5icj27xSDX5u7AjoxjuTWxs10WrMSj3t2gH5sURYn6yXSg9Ocd2+uF/8LH5U09k1A==, tarball: file:projects/file-parser.tgz}
     name: '@rush-temp/file-parser'
     version: 0.0.0
     dev: false
@@ -632,13 +632,13 @@ packages:
     dev: false
 
   file:projects/xlsx-parser.tgz:
-    resolution: {integrity: sha512-6HKRMglUhEsnBsVzFDvHmZ/WYr5YedYNLiz1HE7idRKCWoVS3m2qTzKh8oHFmy9AbMUneuYEW8e1YKi3suKojg==, tarball: file:projects/xlsx-parser.tgz}
+    resolution: {integrity: sha512-R/tn/r1zAXI+c25Dg43Rw5IaCaSkfgxr060x7oHJwoQHKDvqEZ9YQzpemFK61b8LcLO4+4BuI4oiJJzu/CZ9JQ==, tarball: file:projects/xlsx-parser.tgz}
     name: '@rush-temp/xlsx-parser'
     version: 0.0.0
     dependencies:
       '@types/app-root-path': 1.2.4
       '@types/node': 16.3.3
-      '@xlsx-model/excel': 4.3.2
+      '@xlsx-model/excel': 4.3.3
       '@xlsx-model/models': 1.1.0
       app-root-path: 3.0.0
       prettier: 2.3.2
